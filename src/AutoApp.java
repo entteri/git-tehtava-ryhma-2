@@ -26,6 +26,17 @@ public class AutoApp {
         Auto auto3 = new Auto("Ford", "Mustang", 40);
         auto3.naytaTiedot();
         auto3.tankkaa(20);
+
+        // Tuomaksen auto
+        Auto auto4 = new Auto();
+        
+        auto3.merkki = "Mitsubishi";
+        auto3.malli = "Spacestar";
+        auto3.bensanMaara = 30;
+
+        auto3.naytaTiedot();
+        auto3.kiihdyta();
+        auto3.naytaTiedot();
     }
 }
 

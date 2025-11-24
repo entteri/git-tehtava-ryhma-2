@@ -37,6 +37,17 @@ public class AutoApp {
         auto3.naytaTiedot();
         auto3.kiihdyta();
         auto3.naytaTiedot();
+
+        //Veeran auto
+        Auto auto5 = new Auto();
+        auto5.merkki = "Toyota";
+        auto5.malli = "Corolla";
+        auto5.bensanMaara = 15;
+        auto5.jarruta();
+        auto5.tankkaa(50);
+        auto5.kiihdyta();
+        auto5.naytaTiedot();
+        
     }
 }
 
